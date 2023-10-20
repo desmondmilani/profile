@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: tahoma;
+}
+
+hr {
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: algerian;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: cursive;
+}
+
+h3 {
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+li {}
+
+.canvas {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+
+.content {
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content ul {
+    width: 60%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+.contact a {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 1s ease-in-out;
+
+}
+
+.contact a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.stand {
+    width: 80%;
+    padding: 20px;
+    font-size: 1.5em;
+    font-family: cursive;
+    font-style: italic;
+}
